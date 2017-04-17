@@ -17,7 +17,7 @@ put
 ```
 HandleLidSwitch=ignore
 ```
-*remember to uncomment*
+*remember to uncomment this line, it's commented by default*
 
 then restart logind
 ```
@@ -56,10 +56,10 @@ $ systemctl restart systemd-logind
 
 Things to add later
 
-to watch many files:
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-
-- put sublime keybindings (indent paste)
-- nice console.log solution
-
+- to watch many files: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+- sublime
+  - sublime keybindings (indent paste) and settings (hide node_modules)
+  - nice console.log solution
 - terminator plugin for clicking files to open in editor with regex
+- bluetooth reset fix https://gist.github.com/pylover/d68be364adac5f946887b85e6ed6e7ae
+- 
