@@ -28,9 +28,38 @@ $ systemctl restart systemd-logind
 
 ### Screens
 
-- `sudo apt-get instsall arandr`
+- install ARandR `sudo apt-get instsall arandr`
 - add `.screenlayout` to `$PATH`
 
 ### Keyboard
 
--
+- when keys are weird: `setxkbmap us`
+
+## Sublime
+
+### Packages
+
+- Themr (!)
+- Schemr (!)
+- Material Theme (nice theme)
+  + run configuration to tweak it
+- SideBarEnhancements (!)
+- SyncedSideBar (?)
+- sublime-github (!)
+- SublimeLinter-contrib-standard (!)
+- Markdown Preview (use with [LivePage chrome extention](https://chrome.google.com/webstore/detail/livepage/pilnojpmdoofaelbinaeodfpjheijkbh)) (!)
+- MarkdownEditing
+- Markdown Extended
+
+
+## Notes
+
+Things to add later
+
+to watch many files:
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+- put sublime keybindings (indent paste)
+- nice console.log solution
+
+- terminator plugin for clicking files to open in editor with regex
