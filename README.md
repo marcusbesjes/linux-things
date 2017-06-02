@@ -62,4 +62,9 @@ Things to add later
   - nice console.log solution
 - terminator plugin for clicking files to open in editor with regex
 - bluetooth reset fix https://gist.github.com/pylover/d68be364adac5f946887b85e6ed6e7ae
-- 
+- i3 appearance https://askubuntu.com/questions/598943/how-to-de-uglify-i3-wm/739553
+
+## Uninstall things
+```
+sudo apt-get --purge remove THETHING
+```
